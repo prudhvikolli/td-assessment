@@ -1,3 +1,10 @@
 .td-green-background {
     background-color: #12422b;
 }
+
+/* Typical media breakpoint for devices smaller than laptops (ex: mobiles, ipads etc) */
+@media (max-width: 768px) {
+    #see-more-coverage-options {
+        width: 100%;
+    }
+}
