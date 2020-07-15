@@ -2,9 +2,26 @@
     background-color: #12422b;
 }
 
+footer #need-to-talk {
+    font-size: xx-large;
+}
+
+footer hr {
+    width: 48%;
+    background-color: chartreuse;
+}
+
 /* Typical media breakpoint for devices smaller than laptops (ex: mobiles, ipads etc) */
 @media (max-width: 768px) {
     #see-more-coverage-options {
+        width: 100%;
+    }
+
+    footer span#contact-us {
+        display: block;
+    }
+
+    footer hr {
         width: 100%;
     }
 }
