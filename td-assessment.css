@@ -13,6 +13,10 @@ footer hr {
 
 /* Typical media breakpoint for devices smaller than laptops (ex: mobiles, ipads etc) */
 @media (max-width: 768px) {
+    .main-content {
+        flex-direction: column;
+    }
+
     #see-more-coverage-options {
         width: 100%;
     }
